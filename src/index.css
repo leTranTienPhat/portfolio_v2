@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f4f4f4;
+}
+
+body.dark {
+  background-color: #23272f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer components {
+  .cont {
+    @apply w-[1000px] xl:w-[1280px];
+  }
+
+  .center-absolute {
+    @apply transform top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+
+  .btn {
+    @apply font-bold py-2 px-4 m-2 rounded;
+  }
+  .sm {
+    @apply px-2;
+  }
+
+  .md {
+    @apply px-4;
+  }
+
+  .lg {
+    @apply px-8;
+  }
+
+  .xl {
+    @apply px-16;
+  }
+
+  /*button colors: default, primary, info, success, warning, danger*/
+  .default {
+    @apply bg-gray-100 text-gray-800;
+  }
+  .default:hover {
+    @apply bg-gray-200 text-gray-800;
+  }
+
+  .primary {
+    @apply bg-cyan-700 text-white;
+  }
+  .primary:hover {
+    @apply bg-cyan-900 text-white;
+  }
+
+  .success {
+    @apply bg-green-500 text-white;
+  }
+  .success:hover {
+    @apply bg-green-600 text-white;
+  }
+
+  .info {
+    @apply bg-blue-500 text-white;
+  }
+  .info:hover {
+    @apply bg-blue-600 text-white;
+  }
+
+  .warning {
+    @apply bg-yellow-400 text-white;
+  }
+  .warning:hover {
+    @apply bg-yellow-500 text-white;
+  }
+
+  .danger {
+    @apply bg-red-500 text-white;
+  }
+  .danger:hover {
+    @apply bg-red-600 text-white;
+  }
+}
