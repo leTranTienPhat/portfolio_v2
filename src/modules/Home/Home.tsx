@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="bg-gradient-blue dark:bg-gradient-black w-screen overflow-hidden">
       <Marquee />
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-screen min-h-[650px] overflow-visible pt-[100px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-screen min-h-[650px] overflow-visible pt-[100px] lg:pt-0">
         <div className="grid place-content-center">
           <JavascriptOrbit />
         </div>
@@ -19,14 +19,14 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="absolute grid grid-cols-2 text-[40px] font-bold w-full visible lg:invisible ">
-            <div className="w-full h-full bg-red-200">
-              <p className='dark:text-white  xl:text-[100px] translate-y[160%] xl:translate-y-[120%] translate-x-[40%]'>
+          <div className="absolute bottom-0 grid grid-cols-2 md:text-[60px] text-[30px] font-bold w-full lg:hidden ">
+            <div className="flex w-full justify-items-start">
+              <p className='dark:text-white md:pl-10 pl-5'>
                 LÊ TRẦN
               </p>
             </div>
-            <div className=" bg-blue-200">
-              <p className='dark:text-white  xl:text-[100px] translate-y[160%] xl:translate-y-[120%] translate-x-[40%]'>
+            <div className="flex w-full place-content-end">
+              <p className='dark:text-white '>
                 TIẾN PHÁT
               </p>
             </div>
