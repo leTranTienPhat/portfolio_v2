@@ -12,7 +12,7 @@ export default function Header() {
   }
 
   return (
-    <div className="bg-primary dark:bg-primary-dark h-16 w-full flex justify-center">
+    <div className=" dark:bg-primary-dark h-16 w-full flex justify-center">
       <div className="cont flex justify-between h-full items-center">
         <img src={BrandLogo} />
         <div className="flex items-center">

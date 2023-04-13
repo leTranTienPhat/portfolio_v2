@@ -5,10 +5,8 @@ function App() {
 
   return (
     <div className="App">
-      <div className="w-screen">
-        <Header />
-        <Home />
-      </div>
+      <Header />
+      <Home />
     </div>
   )
 }

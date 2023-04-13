@@ -10,8 +10,13 @@ export default {
       center: true,
     },
     extend: {
+      backgroundImage: (theme) => ({
+        'hero-portrait': "url('./src/common/assets/Images/hero-portrait.png')",
+        'gradient-blue': 'linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(252,252,255,1) 0%, rgba(188,244,255,1) 100%);',
+        'gradient-black': 'radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);'
+      }),
       colors: {
-        'primary': '#05b2f0',
+        'primary': '#63C5DA',
         'primary-dark': '#171717',
         'secondary-dark': '#23272f',
         'light-gray': '#f4f4f4',

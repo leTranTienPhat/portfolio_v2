@@ -7,8 +7,6 @@
 }
 
 .orbit .center-image img {
-  width: 14rem;
-  height: 10rem;
   position: absolute;
   animation: floating 2s alternate infinite;
 }
@@ -17,8 +15,8 @@
   display: grid;
   justify-items: center;
   align-items: center;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   list-style: none;
   position: relative;
   transform-origin: center;
@@ -34,27 +32,27 @@
 }
 
 .orbit ul li:first-child {
-  transform: translate(16rem, 0);
+  transform: translate(14rem, 0);
 }
 
 .orbit ul li:nth-child(2) {
-  transform: translate(8rem, 14rem);
+  transform: translate(8rem, 12rem);
 }
 
 .orbit ul li:nth-child(3) {
-  transform: translate(-10rem, 14rem);
+  transform: translate(-8rem, 12rem);
 }
 
 .orbit ul li:nth-child(4) {
-  transform: translate(-16rem, 0rem);
+  transform: translate(-14rem, 0rem);
 }
 
 .orbit ul li:nth-child(5) {
-  transform: translate(-10rem, -14rem);
+  transform: translate(-8rem, -12rem);
 }
 
 .orbit ul li:nth-child(6) {
-  transform: translate(10rem, -14rem);
+  transform: translate(10rem, -12rem);
 }
 
 @keyframes orbit {
