@@ -7,7 +7,6 @@ type Props = {
 }
 
 export default function AnimatedPage({ children, index, variants }: Props) {
-  console.log(index)
   return (
     <AnimatePresence mode='wait'>
       <motion.div
