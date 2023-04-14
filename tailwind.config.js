@@ -23,28 +23,13 @@ export default {
         'iron': '#777B7E'
       },
       keyframes: {
-        marquee: {
-          '0%': { transform: 'translateX(10%)' },
-          '100%': { transform: 'translateX(-100%)' },
-        },
         floating: {
           '0%': { transform: 'translateY(10%)' },
           '100%': { transform: 'translateY(-10%)' },
         },
-        rotate: {
-          '100%': { transform: 'rotate(360deg)' },
-        },
-        rotateReverse: {
-          '0%': { transform: 'rotate(360deg)' },
-          '100%': { transform: 'rotate(0)' },
-        },
-
       },
       animation: {
-        'marquee': 'marquee 10s linear infinite',
         'floating': 'floating 1s alternate ease-in-out infinite',
-        'rotate': 'rotate 2s linear infinite',
-        'rotate-counter': 'rotateReverse 2s linear infinite',
       }
     },
   },

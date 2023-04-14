@@ -1,0 +1,32 @@
+.game-box label i {
+  background-size: 580px;
+}
+
+.game-box label:nth-child(1) i {
+  background-image: url(../../../../assets/Images/01.jpg);
+  animation: matching-animate 0.5s steps(7) infinite;
+}
+
+.game-box label:nth-child(2) i {
+  background-image: url(../../../../assets/Images/02.jpg);
+  animation: matching-animate 0.4s steps(7) infinite;
+}
+
+.game-box label:nth-child(3) i {
+  background-image: url(../../../../assets/Images/03.jpg);
+  animation: matching-animate 0.7s steps(7) infinite;
+}
+
+.game-box label input:checked ~ i {
+  animation-play-state: paused;
+}
+
+@keyframes matching-animate {
+  0% {
+    background-position: 0px;
+  }
+
+  100% {
+    background-position: 580px;
+  }
+}

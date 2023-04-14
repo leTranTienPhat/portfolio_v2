@@ -1,13 +1,11 @@
 import Home from './modules/Home/Home'
-import Header from './common/components/layout/Header'
+import Layout from './common/components/layout'
 
 function App() {
-
   return (
-    <div className="App">
-      <Header />
+    <Layout>
       <Home />
-    </div>
+    </Layout>
   )
 }
 

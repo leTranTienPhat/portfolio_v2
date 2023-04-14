@@ -2,7 +2,7 @@ import JavascriptOrbit from "../JavascriptOrbit";
 
 export default function Hero() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 w-screen min-h-[650px] overflow-visible pt-[100px] lg:pt-0">
+    <section className="grid grid-cols-1 lg:grid-cols-2 w-screen min-h-[650px] overflow-visible pt-[100px] lg:pt-0">
       <div className="grid place-content-center">
         <JavascriptOrbit />
       </div>
@@ -29,6 +29,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

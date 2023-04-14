@@ -5,12 +5,11 @@ import AboutMe from "../../common/components/AboutMe";
 export default function Home() {
   return (
     <>
-      <div className="bg-gradient-blue dark:bg-gradient-black w-screen overflow-hidden">
+      <section className="bg-gradient-blue dark:bg-gradient-black w-screen overflow-hidden">
         <Marquee />
         <Hero />
-      </div>
+      </section>
       <AboutMe />
-
     </>
   )
 }

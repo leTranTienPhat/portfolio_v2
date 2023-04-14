@@ -1,4 +1,4 @@
-import BrandLogo from "../../../assets/Icons/brandLogo.svg"
+import brandLogo from "../../../assets/Icons/brand-logo.svg"
 import ThemeSwitcher from "../../ThemeSwitcher"
 import BaseButton from "../../Button/BaseButton"
 import GuestLogin from "../../GuestLogin"
@@ -12,9 +12,9 @@ export default function Header() {
   }
 
   return (
-    <div className=" dark:bg-primary-dark h-16 w-full flex justify-center">
+    <section className=" dark:bg-primary-dark h-16 w-full flex justify-center">
       <div className="cont flex justify-between h-full items-center">
-        <img src={BrandLogo} />
+        <img src={brandLogo} />
         <div className="flex items-center">
           <ThemeSwitcher />
           <div className="pl-4">
@@ -24,6 +24,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
