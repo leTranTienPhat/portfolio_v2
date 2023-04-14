@@ -20,7 +20,6 @@ export default function ThemeProvider({ children }: Props) {
   const [theme, setTheme] = useState<string>('light')
 
   useEffect(() => {
-    console.log(theme)
     if (theme === 'dark') {
       document.body.classList.add('dark')
     } else {

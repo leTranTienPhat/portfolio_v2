@@ -30,24 +30,24 @@ export default function MatchingGames() {
         <div className="my-4">
           <Stopwatch isStart={isGameStarted} />
         </div>
-
-      </div>
-      <div className="game-box relative flex flex-col justify-center items-center w-[600px] h-[200px] border-2">
-        <label className="relative w-full h-1/3 border-2">
-          <input type='checkbox' id='chk0' checked={checkState[0]} onClick={() => handleCheckboxClick(0)} />
-          <i className="absolute top-0 left-0 w-full h-full"></i>
-        </label>
-        <label className="relative w-full h-1/3 border-2">
-          <input type='checkbox' id='chk1' checked={checkState[1]} onClick={() => handleCheckboxClick(1)} />
-          <i className="absolute top-0 left-0 w-full h-full"></i>
-        </label>
-        <label className="relative w-full h-1/3 border-2">
-          <input type='checkbox' id='chk2' checked={checkState[2]} onClick={() => handleCheckboxClick(2)} />
-          <i className="absolute top-0 left-0 w-full h-full"></i>
-        </label>
       </div>
 
+      <div className="game-box relative flex flex-col justify-center items-center w-[600px] h-[200px] border-2 scale-75 lg:scale-100">
+        <label className="relative w-full h-1/3 border-2">
+          <input type='checkbox' id='chk0' checked={checkState[0]} onChange={() => handleCheckboxClick(0)} />
+          <i className="absolute top-0 left-0 w-full h-full"></i>
+        </label>
+        <label className="relative w-full h-1/3 border-2">
+          <input type='checkbox' id='chk1' checked={checkState[1]} onChange={() => handleCheckboxClick(1)} />
+          <i className="absolute top-0 left-0 w-full h-full"></i>
+        </label>
+        <label className="relative w-full h-1/3 border-2">
+          <input type='checkbox' id='chk2' checked={checkState[2]} onChange={() => handleCheckboxClick(2)} />
+          <i className="absolute top-0 left-0 w-full h-full"></i>
+        </label>
+      </div>
       <button className="btn danger mt-10" onClick={() => handleBtnClick()}>{isGameStarted ? 'Matching...' : 'Start timer'}</button>
+
     </div>
   )
 }
