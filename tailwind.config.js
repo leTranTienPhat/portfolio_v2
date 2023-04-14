@@ -12,7 +12,7 @@ export default {
     extend: {
       backgroundImage: (theme) => ({
         'hero-portrait': "url('/src/common/assets/Images/hero-portrait.png')",
-        'bubble': "url('./src/common/assets/Images/thought_bubble.svg')",
+        'bubble': "url('/src/common/assets/Images/thought_bubble.svg')",
         'gradient-blue': 'linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(252,252,255,1) 0%, rgba(188,244,255,1) 100%);',
         'gradient-black': 'radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);'
       }),
