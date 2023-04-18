@@ -12,8 +12,8 @@ export default function Header() {
   }
 
   return (
-    <section className=" dark:bg-primary-dark h-16 w-full flex justify-center">
-      <div className="cont flex justify-between h-full items-center">
+    <section className=" dark:bg-primary-dark h-16 flex justify-center bg-slate-200">
+      <div className="container flex justify-between h-full items-center">
         <img src={brandLogo} />
         <div className="flex items-center">
           <ThemeSwitcher />

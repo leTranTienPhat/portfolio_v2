@@ -59,13 +59,8 @@ export default function Illustration({ currentNoun }: Props) {
   }, [currentNoun])
 
   return (
-    <div>
-      {/* <div className="fixed top-0 left-0 w-screen h-screen z-50">
-        asdasdasdasdadasdas
-      </div> */}
-      <AnimatedPage index={currentNoun} variants={animation}>
-        {componentArray[currentNoun]}
-      </AnimatedPage>
-    </div >
+    <AnimatedPage index={currentNoun} variants={animation} className="grid place-content-center w-[700px] h-[700px] p-10">
+      {componentArray[currentNoun]}
+    </AnimatedPage>
   )
 }

@@ -36,17 +36,13 @@ export default function AboutMe() {
   const [currentResult, setCurrentResult] = useState<number>(0)
 
   return (
-    <section>
-      <div className='h-screen'>
-        <div className='grid grid-cols-1 lg:grid-cols-2 h-full'>
-          <div className="grid place-content-center">
-            <Illustration currentNoun={currentNoun} currentResult={currentResult} />
-          </div>
-          <div className=" grid place-content-center">
-            <Biography nounsArray={mockDropdownOptionNouns} resultsArray={mockDropdownOptionResults} setCurrentNoun={setCurrentNoun} setCurrentResult={setCurrentResult} />
-          </div>
-        </div>
+    <div className='grid grid-cols-1 lg:grid-cols-2 h-full'>
+      <div className="grid place-content-center">
+        <Illustration currentNoun={currentNoun} currentResult={currentResult} />
       </div>
-    </section>
+      <div className="grid place-content-center">
+        <Biography nounsArray={mockDropdownOptionNouns} resultsArray={mockDropdownOptionResults} setCurrentNoun={setCurrentNoun} setCurrentResult={setCurrentResult} />
+      </div>
+    </div>
   )
 }

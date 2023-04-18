@@ -1,15 +1,16 @@
-import Marquee from "../../common/components/Marquee";
 import Hero from "../../common/components/Hero";
 import AboutMe from "../../common/components/AboutMe";
+import Section from "../../common/components/layout/Section";
 
 export default function Home() {
   return (
     <>
-      <section className="bg-gradient-blue dark:bg-gradient-black w-screen overflow-hidden">
-        <Marquee />
+      <section>
         <Hero />
       </section>
-      <AboutMe />
+      <Section>
+        <AboutMe />
+      </Section>
     </>
   )
 }

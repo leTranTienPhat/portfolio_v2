@@ -4,9 +4,10 @@ type Props = {
   children: React.ReactElement
   index: number
   variants: any
+  className: string
 }
 
-export default function AnimatedPage({ children, index, variants }: Props) {
+export default function AnimatedPage({ children, index, variants, className }: Props) {
   return (
     <AnimatePresence mode='wait'>
       <motion.div
@@ -15,7 +16,8 @@ export default function AnimatedPage({ children, index, variants }: Props) {
         initial="initial"
         animate="animate"
         exit="exit"
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.5 }}
+        className={className}
       >
         {children}
       </motion.div>
