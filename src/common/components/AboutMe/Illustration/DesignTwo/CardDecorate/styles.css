@@ -1,0 +1,7 @@
+.canvas .front {
+  transform: rotateY(30deg) skew(10deg) translateY(-180px) translateX(60px);
+}
+
+.canvas .back {
+  transform: rotateY(30deg) skew(10deg) translateY(180px) translateX(-60px);
+}

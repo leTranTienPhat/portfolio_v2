@@ -18,7 +18,17 @@ section {
 }
 
 body {
+  min-width: 640px;
+  display: flex;
+  justify-content: center;
   background-color: #f4f4f4;
+  overflow-y: overlay;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 body.dark {
@@ -34,10 +44,6 @@ body.dark {
 }
 
 @layer components {
-  .cont {
-    @apply w-[1000px] xl:w-[1280px];
-  }
-
   .center-absolute {
     @apply transform top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
   }

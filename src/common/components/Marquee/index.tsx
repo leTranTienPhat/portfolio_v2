@@ -16,19 +16,16 @@ const marqueeVariants = {
 
 export default function Marquee() {
   return (
-    <div>
-      <div className="w-screen">
-        <motion.div
-          className="text-[80px] font-bold dark:text-white whitespace-nowrap uppercase"
-          variants={marqueeVariants}
-          animate="animate"
-        >
-          <p>
-            💻 FRONT-END WEB DEVELOPER 💻 FRONT-END WEB DEVELOPER 💻 FRONT-END WEB DEVELOPER 💻 FRONT-END WEB DEVELOPER
-          </p>
-        </motion.div>
-      </div>
+    <div className=" overflow-hidden">
+      <motion.div
+        className="text-[60px] font-bold dark:text-white whitespace-nowrap uppercase"
+        variants={marqueeVariants}
+        animate="animate"
+      >
+        <p>
+          💻 FRONT-END WEB DEVELOPER 💻 FRONT-END WEB DEVELOPER 💻 FRONT-END WEB DEVELOPER 💻 FRONT-END WEB DEVELOPER
+        </p>
+      </motion.div>
     </div>
   );
 };
-

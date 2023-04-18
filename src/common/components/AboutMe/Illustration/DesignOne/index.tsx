@@ -3,11 +3,9 @@ import SvgIllustrationBg from "../../../../assets/Images/SVGR/SvgIllustrationBg"
 
 export default function DesignOne() {
   return (
-    <div className="relative w-full h-full  ">
-      <div className="absolute center-absolute  w-[500px] h-[500px] ">
-        <SvgIllustrationBg />
-      </div>
-      <div className="absolute center-absolute  w-[400px] h-[400px]">
+    <div className="relative w-full h-full">
+      <SvgIllustrationBg color="#ded2f8" className=" w-[700px] h-[700px]" />
+      <div className="absolute center-absolute w-[500px] h-[500px]">
         <img src={illustration} alt="illustration" />
       </div>
     </div>

@@ -12,14 +12,10 @@
 }
 
 .orbit ul {
-  display: grid;
-  justify-items: center;
-  align-items: center;
+  position: relative;
   width: 120px;
   height: 120px;
   list-style: none;
-  position: relative;
-  transform-origin: center;
   animation: orbit 15s linear infinite;
 }
 

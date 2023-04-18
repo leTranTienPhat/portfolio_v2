@@ -7,7 +7,9 @@ export default function Layout() {
   return (
     <>
       <Header />
-      <Outlet />
+      <div className="w-screen">
+        <Outlet />
+      </div>
       <Footer />
     </>
   )
