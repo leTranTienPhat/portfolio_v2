@@ -1,11 +1,18 @@
 import Home from './modules/Home/Home'
 import Layout from './common/components/layout'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import AboutMe from './common/components/AboutMe'
 
 function App() {
   return (
-    <Layout>
-      <Home />
-    </Layout>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />} >
+          <Route path="/" element={<Home />} />
+          <Route path="/test" element={<AboutMe />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
