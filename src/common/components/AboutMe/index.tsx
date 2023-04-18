@@ -15,10 +15,6 @@ const mockDropdownOptionNouns = [
     id: 3,
     text: 'interactive websites'
   },
-  {
-    id: 4,
-    text: 'fast-loading e-commerce'
-  }
 ]
 const mockDropdownOptionResults = [
   {

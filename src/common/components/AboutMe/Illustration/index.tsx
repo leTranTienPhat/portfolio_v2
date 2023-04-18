@@ -3,6 +3,8 @@ import bubble from "../../../assets/Images/thought_bubble.svg"
 import Drag from "../../../animation/Drag/index.js";
 import AnimatedPage from "../../../animation/AnimatedPage/index.js";
 import { useEffect, useState } from "react";
+import DesignOne from "./DesignOne/index.js";
+import DesignTwo from "./DesignTwo/index.js";
 
 type Props = {
   currentNoun: number,
@@ -10,13 +12,12 @@ type Props = {
 }
 
 const componentArray = [
+  <DesignOne />,
+  <DesignTwo />,
   <MatchingGame />,
-  <MatchingGame />,
-  <MatchingGame />,
-  <MatchingGame />
 ]
 
-export default function Illustration({ currentNoun, currentResult }: Props) {
+export default function Illustration({ currentNoun }: Props) {
   const [animation, setAnimation] = useState<any>({
     initial: { opacity: 0 },
     animate: { opacity: 1 },
