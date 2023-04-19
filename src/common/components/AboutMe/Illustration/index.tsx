@@ -59,7 +59,7 @@ export default function Illustration({ currentNoun }: Props) {
   }, [currentNoun])
 
   return (
-    <AnimatedPage index={currentNoun} variants={animation} className="grid place-content-center w-[700px] h-[700px] p-10">
+    <AnimatedPage index={currentNoun} variants={animation} className="grid place-content-center max-w-[700px] max-h-[700px] p-10">
       {componentArray[currentNoun]}
     </AnimatedPage>
   )

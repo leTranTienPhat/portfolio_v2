@@ -14,27 +14,29 @@ export default function JavascriptOrbit() {
       <div className="center-image hover:scale-125 z-10 transition-transform duration-500 ">
         <img src={JavascriptIcon} alt="" className="hover:scale-125" />
       </div>
-      <ul>
-        <li>
-          <img src={ReduxIcon} alt="" className="hover:scale-125 transition-transform duration-500" />
-        </li>
-        <li>
-          <img src={ReactIcon} alt="" className="hover:scale-125 transition-transform duration-500" />
-        </li>
-        <li>
-          <img src={NextIcon} alt="" className="hover:scale-125 transition-transform duration-500" />
-        </li>
-        <li>
-          <img src={Typescript} alt="" className="hover:scale-125 transition-transform duration-500" />
-        </li>
-        <li>
-          <img src={TailwindIcon} alt="" className="hover:scale-125 transition-transform duration-500" />
-        </li>
-        <li>
-          <img src={VueIcon} alt="" className="hover:scale-125 transition-transform duration-500" />
-        </li>
 
-      </ul>
+      <div className="Need testing ">
+        <ul>
+          <li>
+            <img src={ReduxIcon} alt="" className="hover:scale-125 transition-transform duration-500" />
+          </li>
+          <li>
+            <img src={ReactIcon} alt="" className="hover:scale-125 transition-transform duration-500" />
+          </li>
+          <li>
+            <img src={NextIcon} alt="" className="hover:scale-125 transition-transform duration-500" />
+          </li>
+          <li>
+            <img src={Typescript} alt="" className="hover:scale-125 transition-transform duration-500" />
+          </li>
+          <li>
+            <img src={TailwindIcon} alt="" className="hover:scale-125 transition-transform duration-500" />
+          </li>
+          <li>
+            <img src={VueIcon} alt="" className="hover:scale-125 transition-transform duration-500" />
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }
