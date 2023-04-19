@@ -4,7 +4,7 @@ type Props = {
 
 export default function Section({ children }: Props) {
   return (
-    <section className="container h-screen">
+    <section className="container">
       {children}
     </section>
   )

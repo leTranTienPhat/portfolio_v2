@@ -36,7 +36,7 @@ export default function AboutMe() {
   const [currentResult, setCurrentResult] = useState<number>(0)
 
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-2 h-full'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 h-screen'>
       <div className="grid place-content-center">
         <Illustration currentNoun={currentNoun} currentResult={currentResult} />
       </div>

@@ -4,7 +4,7 @@ import CardDecorate from "./CardDecorate"
 
 export default function DesignTwo() {
   return (
-    <div className="relative">
+    <div className="relative xl:w-[800px]">
       <CardDecorate image={landingPage01} position="back" />
       <CardDecorate image={landingPage02} position="front" />
     </div>
