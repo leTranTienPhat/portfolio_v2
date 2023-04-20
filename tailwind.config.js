@@ -21,7 +21,13 @@ export default {
         'primary-dark': '#171717',
         'secondary-dark': '#23272f',
         'light-gray': '#f4f4f4',
-        'iron': '#777B7E'
+        'iron': '#777B7E',
+        'light-yellow': "#FEF8DD",
+        'light-green': "#E1F8DC",
+        'light-blue': "#CAF1DE",
+        'light-pink': "#fbf7ff",
+        'light-brown': "#FDECDC",
+
       },
       keyframes: {
         floating: {

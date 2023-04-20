@@ -9,7 +9,7 @@ type Props = {
 
 const ProjectCard = ({ isFocus, item }: Props, ref: any) => {
   return (
-    <div ref={ref} className="container w-full h-[600px] mb-1 bg-blue-400 rounded-[40px] px-20 py-10">
+    <div ref={ref} className={`w-[95%] h-[600px] ${item.backgroundColor} mb-10 rounded-[40px] px-20 py-10`}>
       <div className="grid grid-cols-2 w-full h-full">
         <div className=" w-full h-full">
           <h3 className="text-xl font-bold mb-10">{item.title}</h3>
