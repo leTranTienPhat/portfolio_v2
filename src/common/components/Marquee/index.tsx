@@ -16,9 +16,9 @@ const marqueeVariants = {
 
 export default function Marquee() {
   return (
-    <div className=" overflow-hidden">
+    <div className="overflow-hidden">
       <motion.div
-        className="text-[60px] font-bold dark:text-white whitespace-nowrap uppercase"
+        className="text-[60px] font-bold text-white whitespace-nowrap uppercase"
         variants={marqueeVariants}
         animate="animate"
       >

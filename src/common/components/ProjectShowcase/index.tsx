@@ -146,8 +146,8 @@ export default function ProjectShowcase() {
   }
 
   return (
-    <section>
-      <div className="relative flex flex-col items-center py-[100px] " >
+    <section className="bg-bg-light dark:bg-bg-dark">
+      <div className="relative flex flex-col items-center " >
         <StickyPreview ref={targetRef} currentItem={projectPreview[currentItem]} />
         <ProjectCard ref={refItem1} item={projectPreview[0]} />
         <ProjectCard ref={refItem2} item={projectPreview[1]} />

@@ -20,25 +20,27 @@ export default function Header() {
   }
 
   return (
-    <section className=" dark:bg-primary-dark h-16 flex justify-center bg-slate-200">
-      <div className="container flex justify-between h-full items-center">
-        <img src={brandLogo} />
-        <div className="flex items-center">
-          <ThemeSwitcher />
-          <div className="pl-4">
-            <select defaultValue={"en"} onChange={handleChangeLang}>
-              {LANGUAGES.map(({ code, label }) => (
-                <option key={code} value={code}>
-                  {label}
-                </option>
-              ))}
-            </select>
-            <BaseButton onClick={handleLoginBtnClicked}>
-              {t('contactBtn')}
-            </BaseButton>
+    <div className="relative h-16 ">
+      <div className="fixed top-0 w-screen z-50 dark:bg-primary-dark h-16 flex justify-center bg-slate-200 shadow-2xl">
+        <div className="container flex justify-between h-full items-center">
+          <img src={brandLogo} />
+          <div className="flex items-center">
+            <ThemeSwitcher />
+            <div className="pl-4">
+              <select defaultValue={"en"} onChange={handleChangeLang}>
+                {LANGUAGES.map(({ code, label }) => (
+                  <option key={code} value={code}>
+                    {label}
+                  </option>
+                ))}
+              </select>
+              <BaseButton onClick={handleLoginBtnClicked}>
+                {t('contactBtn')}
+              </BaseButton>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }

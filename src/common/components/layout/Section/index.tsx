@@ -4,8 +4,10 @@ type Props = {
 
 export default function Section({ children }: Props) {
   return (
-    <section className="container">
-      {children}
+    <section className="bg-bg-light dark:bg-bg-dark">
+      <div className="container">
+        {children}
+      </div>
     </section>
   )
 }
