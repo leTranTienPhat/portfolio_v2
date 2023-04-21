@@ -24,7 +24,7 @@ export default function AboutMe() {
   return (
     <div className='grid grid-cols-1 lg:grid-cols-2 h-screen'>
       <div className="grid place-content-center">
-        <Illustration currentNoun={currentNoun} currentResult={currentResult} />
+        <Illustration currentNoun={currentNoun} />
       </div>
       <div className="grid place-content-center">
         <Biography nounsArray={mockDropdownOptionNouns} setCurrentNoun={setCurrentNoun} />
