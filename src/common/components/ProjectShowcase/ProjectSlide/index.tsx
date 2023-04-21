@@ -29,7 +29,7 @@ export default function ProjectSlide({ projectSlide }: Props) {
         {projectSlide.map((image, index) => {
           return (
             <div key={index} className="p-4">
-              <img src={image} alt={image} className="" />
+              <img src={image} alt={image} />
             </div>
           )
         })}
