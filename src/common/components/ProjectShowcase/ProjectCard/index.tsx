@@ -1,34 +1,31 @@
 import { forwardRef } from "react"
+import { IProject } from ".."
 
 type Props = {
   // children: React.ReactElement
-  isFocus: false
+  item: IProject
 }
 
-const ProjectCard = ({ isFocus }: Props, ref: any) => {
+const ProjectCard = ({ item }: Props, ref: any) => {
   return (
-    <div ref={ref} className="container w-full h-[600px] mb-1 bg-blue-400 rounded-[40px] px-20 py-10">
-      <div className="grid grid-cols-2 w-full h-full">
+    <div ref={ref} className={`w-[95%] min-h-[500px] ${item.backgroundColor} mb-10 rounded-[40px] px-20 py-10  shadow-xl`}>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-full h-full">
         <div className=" w-full h-full">
-          <h3>Nifehub</h3>
-          <div>
-            <p>Nifehub is a large scale global social platform planning to release in 2023.</p>
-          </div>
-          <div>
-            <p className="whitespace-nowrap">Technologies: <span>CodeIgniter 4 , VueJS, PostgreSQL.</span> </p>
-
-          </div>
-          <div>
-            <p>Details</p>
-            <ul>
-              <li>Build pixel-perfect responsive HTML based on Figma designs, </li>
-              <li>Project management platform: Git, Jira, Trello.</li>
-              <li>Team size: 10</li>
-            </ul>
-          </div>
+          <h3 className="text-xl font-bold mb-10">{item.title}</h3>
+          <p className="mb-4">{item.description}</p>
+          <p className="mb-4">Technologies: {item.technology}</p>
+          <ul className="list-disc">
+            {item.task.map((task, index) => {
+              return (
+                <li key={index}>{task}</li>
+              )
+            })}
+          </ul>
         </div>
 
-        <div></div>
+        <div className="w-full h-full lg:hidden">
+          <img src={item.previewImg} alt={item.description} className="w-full h-full" />
+        </div>
 
       </div>
     </div>

@@ -8,7 +8,6 @@ import DesignTwo from "./DesignTwo/index.js";
 
 type Props = {
   currentNoun: number,
-  currentResult: number
 }
 
 const componentArray = [

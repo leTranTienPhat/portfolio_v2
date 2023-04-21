@@ -16,32 +16,18 @@ const mockDropdownOptionNouns = [
     text: 'interactive websites'
   },
 ]
-const mockDropdownOptionResults = [
-  {
-    id: 1,
-    text: 'capture user\'s attention'
-  },
-  {
-    id: 2,
-    text: 'increase revenue'
-  },
-  {
-    id: 3,
-    text: 'improve user\'s experience'
-  },
-]
+
 
 export default function AboutMe() {
   const [currentNoun, setCurrentNoun] = useState<number>(0)
-  const [currentResult, setCurrentResult] = useState<number>(0)
 
   return (
     <div className='grid grid-cols-1 lg:grid-cols-2 h-screen'>
       <div className="grid place-content-center">
-        <Illustration currentNoun={currentNoun} currentResult={currentResult} />
+        <Illustration currentNoun={currentNoun} />
       </div>
       <div className="grid place-content-center">
-        <Biography nounsArray={mockDropdownOptionNouns} resultsArray={mockDropdownOptionResults} setCurrentNoun={setCurrentNoun} setCurrentResult={setCurrentResult} />
+        <Biography nounsArray={mockDropdownOptionNouns} setCurrentNoun={setCurrentNoun} />
       </div>
     </div>
   )

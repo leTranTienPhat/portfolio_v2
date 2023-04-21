@@ -4,7 +4,7 @@ type Props = {
   children: React.ReactElement
   index: number
   variants: any
-  className: string
+  className?: string
 }
 
 export default function AnimatedPage({ children, index, variants, className }: Props) {

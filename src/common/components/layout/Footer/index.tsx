@@ -1,5 +1,5 @@
 export default function Footer() {
   return (
-    <section className="h-screen">Footer</section>
+    <section className="bg-bg-light dark:bg-bg-dark">Footer</section>
   )
 }
