@@ -4,6 +4,7 @@ import App from './App'
 import './index.css'
 import ThemeProvider from './common/context/ThemeContext'
 import ModalProvider from './common/context/ModalContext'
+import "./common/lang/i18n";
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>

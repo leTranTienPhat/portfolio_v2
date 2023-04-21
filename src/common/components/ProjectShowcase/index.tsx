@@ -8,7 +8,13 @@ import nifeHub from "../../assets/Images/Projects/nifehub.jpg"
 import netflix from "../../assets/Images/Projects/netflix.jpg"
 import styleShop from "../../assets/Images/Projects/styleshop.jpg"
 import rakuten from "../../assets/Images/Projects/rakuten.jpg"
-// import linkneverphai from "../../assets/Images/Projects/linkneverphai.jpg"
+import ProjectSlide from "./ProjectSlide"
+import dashboard from "../../assets/Images/Projects/dashboard.jpg"
+import khaoxin from "../../assets/Images/Projects/khaoxin.jpg"
+import movieSite from "../../assets/Images/Projects/movie-site.jpg"
+import quiz from "../../assets/Images/Projects/quiz.jpg"
+import linkneverphai from "../../assets/Images/Projects/linkneverphai.jpg"
+import oldPortfolio from "../../assets/Images/Projects/portfolio-v1.jpg"
 
 export type IProject = {
   id: number,
@@ -93,6 +99,8 @@ const projectPreview: IProject[] = [
   },
 ]
 
+const projectSlide: string[] = [dashboard, movieSite, khaoxin, oldPortfolio, linkneverphai, quiz]
+
 export default function ProjectShowcase() {
   const [currentItem, setCurrentItem] = useState<number>(0)
   const targetRef = useRef<HTMLDivElement>(null)
@@ -138,16 +146,17 @@ export default function ProjectShowcase() {
   }
 
   return (
-    <section className=" bg-blue-200">
-      <div className="relative flex flex-col items-center py-[200px]" >
+    <section>
+      <div className="relative flex flex-col items-center py-[100px] " >
         <StickyPreview ref={targetRef} currentItem={projectPreview[currentItem]} />
-        <ProjectCard isFocus={false} ref={refItem1} item={projectPreview[0]} />
-        <ProjectCard isFocus={false} ref={refItem2} item={projectPreview[1]} />
-        <ProjectCard isFocus={false} ref={refItem3} item={projectPreview[2]} />
-        <ProjectCard isFocus={false} ref={refItem4} item={projectPreview[3]} />
-        <ProjectCard isFocus={false} ref={refItem5} item={projectPreview[4]} />
-        <ProjectCard isFocus={false} ref={refItem6} item={projectPreview[5]} />
+        <ProjectCard ref={refItem1} item={projectPreview[0]} />
+        <ProjectCard ref={refItem2} item={projectPreview[1]} />
+        <ProjectCard ref={refItem3} item={projectPreview[2]} />
+        <ProjectCard ref={refItem4} item={projectPreview[3]} />
+        <ProjectCard ref={refItem5} item={projectPreview[4]} />
+        <ProjectCard ref={refItem6} item={projectPreview[5]} />
       </div>
+      <ProjectSlide projectSlide={projectSlide} />
     </section>
   )
 }

@@ -3,12 +3,20 @@ import ThemeSwitcher from "../../ThemeSwitcher"
 import BaseButton from "../../Button/BaseButton"
 import GuestLogin from "../../GuestLogin"
 import { useModal } from "../../../hooks/Modal/useModal"
+import { LANGUAGES } from "../../../lang/languagues"
+import { useTranslation } from 'react-i18next'
 
 export default function Header() {
   const { openModal } = useModal()
 
+  const { i18n, t } = useTranslation();
+
   const handleLoginBtnClicked = () => {
     openModal(<GuestLogin />)
+  }
+  const handleChangeLang = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const lang_code = e.target.value;
+    i18n.changeLanguage(lang_code);
   }
 
   return (
@@ -18,8 +26,15 @@ export default function Header() {
         <div className="flex items-center">
           <ThemeSwitcher />
           <div className="pl-4">
+            <select defaultValue={"en"} onChange={handleChangeLang}>
+              {LANGUAGES.map(({ code, label }) => (
+                <option key={code} value={code}>
+                  {label}
+                </option>
+              ))}
+            </select>
             <BaseButton onClick={handleLoginBtnClicked}>
-              Get Started
+              {t('contactBtn')}
             </BaseButton>
           </div>
         </div>
