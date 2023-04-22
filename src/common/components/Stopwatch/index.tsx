@@ -36,6 +36,7 @@ export default function Stopwatch({ isStart }: Props) {
         <span>{("0" + Math.floor((time / 1000) % 60)).slice(-2)}:</span>
         <span>{("0" + (time / 10) % 1000).slice(-2)}s</span>
       </div>
+
       <button onClick={() => handleResetBtnClick()} className="hover:rotate-180 transition">
         <img src={resetIcon} alt="reset btn" className="w-8 h-8 dark:bg-white" />
       </button>
