@@ -55,13 +55,13 @@ export default function Hero() {
         </div>
         <div className="relative grid place-content-center">
           <div className="flex flex-col justify-center items-center -translate-y-20">
-            <div className=" relative w-[300px] h-[300px]">
+            <div className="relative w-[300px] h-[300px]">
               <img src={avatar} alt="avatar" className="w-full h-full" />
-              <div className="absolute w-full h-full top-0 left-0 -z-10 translate-x-10 translate-y-10 border-2 border-red-200 text-white">
+              <div className="absolute w-full h-full top-0 left-0 -z-10 translate-x-4 translate-y-4 border-2 border-red-200 text-white">
                 <p className="absolute right-0 top-1/3 translate-x-[180px] rotate-90 text-[35px] whitespace-nowrap">LÊ TRẦN TIẾN PHÁT</p>
               </div>
             </div>
-            <div className="text-white mt-[10%] px-[15%] text-center text-lg">
+            <div className="text-white text-2xl mt-[10%] px-[15%] text-center">
               A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
             </div>
           </div>
