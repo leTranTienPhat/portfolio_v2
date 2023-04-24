@@ -1,6 +1,11 @@
 {
   "contactBtn": "連絡",
   "logoString": "leTranTienPhatによって開発されました。",
-  "bioFirstHalf": "日本語で書きます",
-  "bioSecondHalf": "日本語で書きます"
+  "bioFirstHalf": "Reactの力を活用して、デザイナーやエージェンシー、ビジネスのアイデアを具現化します。飲み物や食べ物の力を借りて、要件を",
+  "bioSecondHalf": "に変え、最も厳しいお客様でも満足するような成果物を予算内かつ期限内に納品します。",
+  "bioNouns": [
+    "美しいUI",
+    "見事なランディングページ",
+    "インタラクティブなウェブサイト"
+  ]
 }
