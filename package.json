@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@motionone/utils": "^10.15.1",
     "framer-motion": "^10.11.6",
     "i18next": "^22.4.15",
     "i18next-http-backend": "^2.2.0",

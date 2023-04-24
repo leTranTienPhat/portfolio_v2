@@ -1,5 +1,6 @@
 import Dropdown from "../../Dropdown";
 import { useTranslation } from 'react-i18next'
+import techIcon from "../../../assets/Icons"
 
 type Props = {
   nounsArray: any
@@ -18,6 +19,14 @@ export default function Biography({ nounsArray, setCurrentNoun }: Props) {
           <Dropdown value="nouns" dropdownOptions={nounsArray} updateValue={setCurrentNoun} />
           <span> </span>{t("bioSecondHalf")}
         </p>
+        <div className="flex items-center gap-2 border-red-700 border-2 rounded-xl p-4 mt-10">
+          <p className="text-xl font-bold">Tech stack: </p>
+          {techIcon.map((icon, index) => {
+            return (
+              <img key={index} src={icon} alt="tech icon" className="w-16 h-10" />
+            )
+          })}
+        </div>
       </div>
     </div>
   )
