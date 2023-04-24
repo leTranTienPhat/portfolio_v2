@@ -38,7 +38,7 @@ const projectPreview: IProject[] = [
     platform: ["Git", "Redmine"],
     teamSize: 7,
     previewImg: kokusai,
-    backgroundColor: "bg-light-yellow"
+    backgroundColor: "bg-card-yellow"
   },
   {
     id: 2,
@@ -50,8 +50,7 @@ const projectPreview: IProject[] = [
     platform: ["Git", "Confluence"],
     teamSize: 5,
     previewImg: rakuten,
-    backgroundColor: "bg-light-green"
-
+    backgroundColor: "bg-card-green"
   },
   {
     id: 3,
@@ -62,7 +61,7 @@ const projectPreview: IProject[] = [
     platform: ["Google Sheet"],
     teamSize: 14,
     previewImg: bsn,
-    backgroundColor: "bg-light-blue"
+    backgroundColor: "bg-card-blue"
   },
   {
     id: 4,
@@ -73,7 +72,7 @@ const projectPreview: IProject[] = [
     platform: ["Git", "Jira", "Trello"],
     teamSize: 16,
     previewImg: nifeHub,
-    backgroundColor: "bg-light-pink"
+    backgroundColor: "bg-card-pink"
   },
   {
     id: 5,
@@ -84,7 +83,7 @@ const projectPreview: IProject[] = [
     platform: ["Git"],
     teamSize: 1,
     previewImg: netflix,
-    backgroundColor: "bg-light-brown"
+    backgroundColor: "bg-card-brown"
   },
   {
     id: 6,
@@ -95,7 +94,7 @@ const projectPreview: IProject[] = [
     platform: ["Git", "Trello"],
     teamSize: 2,
     previewImg: styleShop,
-    backgroundColor: "bg-light-yellow"
+    backgroundColor: "bg-card-yellow"
   },
 ]
 

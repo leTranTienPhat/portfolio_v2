@@ -7,8 +7,10 @@ type Props = {
 }
 
 const ProjectCard = ({ item }: Props, ref: any) => {
+  const backgroundLight = item.backgroundColor
+  const backgroundDark = `${item.backgroundColor}-dark`
   return (
-    <div ref={ref} className={`w-[95%] min-h-[500px] ${item.backgroundColor} mb-10 rounded-[40px] px-20 py-10  shadow-xl`}>
+    <div ref={ref} className={`w-[95%] min-h-[500px] ${backgroundLight} dark:bg-transparent dark:border-2 dark:border-white dark:text-white mb-10 rounded-[40px] px-20 py-10  shadow-xl`}>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-full h-full">
         <div className=" w-full h-full">
           <h3 className="text-xl font-bold mb-10">{item.title}</h3>
