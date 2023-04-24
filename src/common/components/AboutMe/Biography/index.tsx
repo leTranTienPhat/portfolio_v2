@@ -10,7 +10,6 @@ export default function Biography({ setCurrentNoun }: Props) {
 
   const { t } = useTranslation();
   const nounsArray: string[] = t('bioNouns', { returnObjects: true })
-  console.log(nounsArray)
 
   return (
     <div className="flex justify-center">

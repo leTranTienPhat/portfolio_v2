@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import Biography from "./Biography";
 import Illustration from "./Illustration";
 import { useInView } from "framer-motion";
@@ -13,10 +13,6 @@ export default function AboutMe() {
 
   const ref = useRef(null)
   const isInView = useInView(ref, inViewOptions)
-
-  useEffect(() => {
-    console.log("Element is in view: ", isInView)
-  }, [isInView])
 
   const appearAnimation = {
     transform: isInView ? "none" : "translateX(-200px)",

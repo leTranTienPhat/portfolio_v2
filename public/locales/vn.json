@@ -7,5 +7,112 @@
     "UI thu hút",
     "landing page bắt mắt",
     "website thú vị"
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "[Kokusai Express] K-NACCS Admin Management - Webapp version",
+      "description": "K-NACCS là phần mềm thông quan xuất/nhập khẩu do Kokusai Express phát triển để sử dụng tại Nhật Bản",
+      "technology": "VueJS, Java, TailwindCSS, Vuestic UI, AG-Grid, MariaDB.",
+      "task": [
+        "Build reusable utilities and components",
+        "Build complex admin dashboard with multiple conditional check",
+        "Implement global state management with Vuex",
+        "Daily maintainance, debugging issues"
+      ],
+      "platform": [
+        "Git",
+        "Redmine"
+      ],
+      "teamSize": 7,
+      "backgroundColor": "bg-card-yellow"
+    },
+    {
+      "id": 2,
+      "title": "[Rakuten] Merchant Request Form",
+      "description": "A custom form that collect user information about the next location where Rakuten should expand its Rpay services.",
+      "technology": "NextJS, Java, MariaDB, AWS",
+      "task": [
+        "Work with Google Map geolocation services (Search Autocomplete, Reverse Geolocation, etc)",
+        "Analyze and display heatmap for admin user based on the coordinates received from the form",
+        "Create high-level design, provide feedbacks to client for better layout experience.",
+        "Communicate with client using English on weekly basis",
+        "Daily maintainance, debugging issues",
+        "Write manual test cases, perform test cases and log bugs"
+      ],
+      "platform": [
+        "Git",
+        "Confluence"
+      ],
+      "teamSize": 5,
+      "backgroundColor": "bg-card-green"
+    },
+    {
+      "id": 3,
+      "title": "BSN - Next System",
+      "description": "BSN is a web application that allows registering the business payment slip for employees and management of monthly budgets for each department.",
+      "technology": "C#, SQL Server",
+      "task": [
+        "Perform manual tests",
+        "Write QA, log bugs using English",
+        "Implement global state management with Vuex",
+        "Daily test, debugging issues"
+      ],
+      "platform": [
+        "Google Sheet"
+      ],
+      "teamSize": 14,
+      "backgroundColor": "bg-card-blue"
+    },
+    {
+      "id": 4,
+      "title": "Nifehub",
+      "description": "Nifehub is a large scale global social platform planning to release in 2023.",
+      "technology": "VueJS, PHP, CodeIgniter 4 , PostgreSQL",
+      "task": [
+        "Create services and controller based on existing codes",
+        "Build pixel-perfect responsive HTML based on Figma designs, SEO Optimized",
+        "Daily maintainance, debugging issues"
+      ],
+      "platform": [
+        "Git",
+        "Jira",
+        "Trello"
+      ],
+      "teamSize": 16,
+      "backgroundColor": "bg-card-pink"
+    },
+    {
+      "id": 5,
+      "title": "Netflix (clone)",
+      "description": "I cloned Netflix, yay!",
+      "technology": "React, Typescript, NextJS, Firebase",
+      "task": [
+        "Manage global states with Recoil and Atoms",
+        "Turn JSON results from API calls into beautiful UI",
+        "Login/register and store user info using Firebase"
+      ],
+      "platform": [
+        "Git"
+      ],
+      "teamSize": 1,
+      "backgroundColor": "bg-card-brown"
+    },
+    {
+      "id": 6,
+      "title": "Style Shop",
+      "description": "Demo template designed for e-commerce websites",
+      "technology": "React, Typescript, NodeJS, SCSS, Redux",
+      "task": [
+        "Responsive and fast-loading landing page with smooth animation transition",
+        "Handle global state management with Redux"
+      ],
+      "platform": [
+        "Git",
+        "Trello"
+      ],
+      "teamSize": 2,
+      "backgroundColor": "bg-card-yellow"
+    }
   ]
 }
