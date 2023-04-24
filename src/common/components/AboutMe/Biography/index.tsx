@@ -13,13 +13,13 @@ export default function Biography({ nounsArray, setCurrentNoun }: Props) {
 
   return (
     <div className="flex justify-center">
-      <div className="w-3/4 dark:text-white">
-        <h2 className="font-bold text-center text-[60px] mb-4">{"<AboutMe />"}</h2>
-        <p className="text-xl leading-[60px]">{t("bioFirstHalf")}<span> </span>
+      <div className="w-3/4 ">
+        <h2 className="font-bold text-center text-[60px] mb-4 dark:text-white">{"<AboutMe />"}</h2>
+        <p className="text-xl leading-[60px] dark:text-white">{t("bioFirstHalf")}<span> </span>
           <Dropdown value="nouns" dropdownOptions={nounsArray} updateValue={setCurrentNoun} />
           <span> </span>{t("bioSecondHalf")}
         </p>
-        <div className="flex items-center gap-2 border-red-700 border-2 rounded-xl p-4 mt-10">
+        <div className="flex items-center gap-2 border-react dark:border-none border-2 rounded-xl p-4 mt-10 dark:bg-bg-light">
           <p className="text-xl font-bold">Tech stack: </p>
           {techIcon.map((icon, index) => {
             return (

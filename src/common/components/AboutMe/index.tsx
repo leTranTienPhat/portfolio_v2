@@ -17,12 +17,11 @@ const mockDropdownOptionNouns = [
   },
 ]
 
-
 export default function AboutMe() {
   const [currentNoun, setCurrentNoun] = useState<number>(0)
 
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-2 min-h-screen'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 min-h-screen py-[10%]'>
       <div className="grid place-content-center w-full h-full">
         <Illustration currentNoun={currentNoun} />
       </div>
