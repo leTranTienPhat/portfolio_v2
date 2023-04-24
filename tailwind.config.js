@@ -15,6 +15,8 @@ export default {
         'gradient-black': 'radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);'
       }),
       colors: {
+        'hero-bg': "#999d9e",
+        'hero-bg-dark': "#404040",
         'primary': '#63C5DA',
         'primary-dark': '#171717',
         'secondary-dark': '#23272f',
