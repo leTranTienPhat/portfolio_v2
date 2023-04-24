@@ -147,6 +147,9 @@ export default function ProjectShowcase() {
   return (
     <section className="bg-bg-light dark:bg-bg-dark">
       <div className="relative flex flex-col items-center " >
+        <div className="h-[100px] lg:h-[240px] ">
+          <h3 className="title-text">{"<ProjectPreviews />"}</h3>
+        </div>
         <StickyPreview ref={targetRef} currentItem={projectPreview[currentItem]} />
         <ProjectCard ref={refItem1} item={projectPreview[0]} />
         <ProjectCard ref={refItem2} item={projectPreview[1]} />

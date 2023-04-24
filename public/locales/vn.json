@@ -1,6 +1,11 @@
 {
   "contactBtn": "Liên hệ",
   "logoString": "Được phát triển bởi leTranTienPhat",
-  "bioFirstHalf": "Test text tiếng việt alo alo một hai ba",
-  "bioSecondHalf": "Lại là text tiếng việt yo yo"
+  "bioFirstHalf": "Với những tính năng và thư viện của cộng đồng React mang lại, tôi có thể biến những ý tưởng của các nhà thiết kế và những doanh nghiệp trở thành hiện thực. Chỉ cần được ăn no và ngủ đủ giấc, tôi sẽ xây dựng nên những trang",
+  "bioSecondHalf": ", đáp ứng nhu cầu của bất cứ vị khách hàng, nhanh chóng và hiệu quả.",
+  "bioNouns": [
+    "UI thu hút",
+    "landing page bắt mắt",
+    "website thú vị"
+  ]
 }

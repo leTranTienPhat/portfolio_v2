@@ -54,7 +54,7 @@ export default function Header() {
             <img src={countryIcon[currentLangIcon]} alt="language icon" className="w-10 h-10" />
             <select defaultValue={"en"} onChange={handleChangeLang} >
               {LANGUAGES.map(({ code, label }) => (
-                <option key={code} value={code}>
+                <option key={code} value={code} >
                   {label}
                 </option>
               ))}

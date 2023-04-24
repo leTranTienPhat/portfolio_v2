@@ -37,9 +37,9 @@ const contactLinks: IContact[] = [
 
 const ContactMe = () => {
   return (
-    <div className="container flex flex-col  justify-center items-center  rounded-3xl py-10">
-      <h3 className="font-bold text-[60px] dark:text-white py-10">{"<Contact />"}</h3>
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-10 ">
+    <div className="container flex flex-col justify-center items-center rounded-3xl py-10 h-screen">
+      <h3 className="title-text py-10">{"<Contact />"}</h3>
+      <div className="flex flex-col md:flex-row justify-center items-center gap-10 ">
         {contactLinks.map((contact) => {
           return (
             <ContactCard key={contact.id} contact={contact} />
