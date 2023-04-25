@@ -7,5 +7,115 @@
     "美しいUI",
     "見事なランディングページ",
     "インタラクティブなウェブサイト"
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "[Kokusai Express] K-NACCS Admin Management - Webapp version",
+      "description": "K-NACCSは、日本国内で利用するために国際エキスプレスが開発した通関ソフトウェアです。",
+      "technology": "VueJS, Java, TailwindCSS, Vuestic UI, AG-Grid, MariaDB.",
+      "task": [
+        "再利用可能なユーティリティやコンポーネントの構築",
+        "複数の条件チェックを持つ複雑な管理ダッシュボードの構築",
+        "Vuexを使用したGlobal-stateの実装",
+        "毎日のメンテナンスや問題のデバッグ"
+      ],
+      "platform": [
+        "Git",
+        "Redmine"
+      ],
+      "teamSize": 7,
+      "backgroundColor": "bg-card-yellow"
+    },
+    {
+      "id": 2,
+      "title": "[Rakuten] Merchant Request Form",
+      "description": "楽天が次にRpayサービスを展開する場所について、ユーザー情報を収集するカスタムフォームです",
+      "technology": "NextJS, Java, MariaDB, AWS",
+      "task": [
+        "Google Mapのジオロケーションサービスを調査し、ユーザーの位置情報を座標で収集 (Search Autocomplete, Reverse Geolocation, etc)",
+        "フォームから受け取った座標を基に、管理者ユーザー向けのヒートマップを分析・表示",
+        "レイアウトエクスペリエンスを向上するため、高レベルの設計を作成し、クライアントにフィードバックを提供",
+        "英語での日常的なコミュニケーション（チャット、ビデオ会議）を担当",
+        "毎日のメンテナンスや問題のデバッグ",
+        "マニュアルテストケースの作成、テストケースの実行、バグのログ記録"
+      ],
+      "platform": [
+        "Git",
+        "Confluence"
+      ],
+      "teamSize": 5,
+      "backgroundColor": "bg-card-green"
+    },
+    {
+      "id": 3,
+      "title": "BSN - Next System",
+      "description": "BSNは、従業員のビジネス支払い伝票の登録と、各部署の月次予算の管理を可能にするWebアプリケーションです。",
+      "technology": "C#, SQL Server",
+      "task": [
+        "マニュアルテストの実施",
+        "英語でQAを記述し、バグをログに記録",
+        "Vuexを使用したグローバル状態管理の実装",
+        "毎日のメンテナンスや問題のデバッグ"
+      ],
+      "platform": [
+        "Google Sheet"
+      ],
+      "teamSize": 14,
+      "backgroundColor": "bg-card-blue"
+    },
+    {
+      "id": 4,
+      "title": "Nifehub",
+      "description": "NNifehubは、2023年にリリース予定の大規模なグローバルソーシャルプラットフォームです。",
+      "technology": "VueJS, PHP, CodeIgniter 4 , PostgreSQL",
+      "task": [
+        "既存のコードに基づいて、サービスとコントローラを作成する",
+        "Figmaのデザインに基づいた、ピクセルパーフェクトでレスポンシブなHTMLを構築し、SEO最適化を実施する",
+        "データベースの設計構造を理解し、管理者用の認証およびCRUDアクションを記述する"
+      ],
+      "platform": [
+        "Git",
+        "Jira",
+        "Trello"
+      ],
+      "teamSize": 16,
+      "backgroundColor": "bg-card-pink"
+    },
+    {
+      "id": 5,
+      "title": "Netflix (clone)",
+      "description": "Netflix UIのクローンバージョンと基本的な機能を備えたものです。",
+      "technology": "React, Typescript, NextJS, Firebase",
+      "task": [
+        "NextJSを使用したSSRで、クローンバージョンもSEO最適化を実施する",
+        "任意のコンポーネントをレンダリングできる最適化された動的ポップアップモーダルを管理する",
+        "RecoilとAtomsを使用してグローバル状態を管理する",
+        "API呼び出しからJSON結果を美しいUIに変換する",
+        "Firebaseを使用してユーザーのログイン/登録およびユーザー情報の保存を行う"
+      ],
+      "platform": [
+        "Git"
+      ],
+      "teamSize": 1,
+      "backgroundColor": "bg-card-brown"
+    },
+    {
+      "id": 6,
+      "title": "Style Shop",
+      "description": "eコマースウェブサイト向けに設計されたデモテンプレートです。",
+      "technology": "React, Typescript, NodeJS, SCSS, Redux",
+      "task": [
+        "レスポンシブなUIと高速な読み込み速度のランディングページ",
+        "すべてのページでスムーズなアニメーションの遷移",
+        "Reduxを使用してグローバル状態を管理する"
+      ],
+      "platform": [
+        "Git",
+        "Trello"
+      ],
+      "teamSize": 2,
+      "backgroundColor": "bg-card-yellow"
+    }
   ]
 }

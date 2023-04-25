@@ -7,5 +7,114 @@
     "UI thu hút",
     "landing page bắt mắt",
     "website thú vị"
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "[Kokusai Express] K-NACCS Admin Management",
+      "description": "K-NACCS là phần mềm thông quan xuất/nhập khẩu do Kokusai Express phát triển để sử dụng tại Nhật Bản.",
+      "technology": "VueJS, Java, TailwindCSS, Vuestic UI, AG-Grid, MariaDB.",
+      "task": [
+        "Xây dựng những tính năng và component phức tạp có thể tái sử dụng",
+        "Xây dựng admin dashboard tích hợp nhiều tính năng, dynamic modal, xử lý nhiều flag điều kiện",
+        "Sử dụng Vuex để quản lý global states",
+        "Maintainance hằng ngày, test và fix bug"
+      ],
+      "platform": [
+        "Git",
+        "Redmine"
+      ],
+      "teamSize": 7,
+      "backgroundColor": "bg-card-yellow"
+    },
+    {
+      "id": 2,
+      "title": "[Rakuten] Merchant Request Form",
+      "description": "Một form thu thập thông ý kiến người dùng của Rakuten về địa điểm tiếp theo họ nên mở rộng ví điện tử Rpay của mình.",
+      "technology": "NextJS, Java, MariaDB, AWS",
+      "task": [
+        "Tìm hiểu và áp dụng các API của Google Map để phân tích vị trí người dùng (Search Autocomplete, Reverse Geolocation, etc)",
+        "Phân tích, tổng hợp và sử dụng Heatmap để hiển thị bao quát mức độ quan tâm của người dùng ở từng khu vực",
+        "Thiết kế high-level design, đóng góp ý kiến cho khách hàng để cải thiện chất lượng dự án",
+        "Nắm vai trò chính trong việc thực hiện giao tiếp với khách hàng thường xuyên bằng tiếng Anh (chat, họp qua video)",
+        "Maintainance hằng ngày, test và fix bug",
+        "Thiết kế và thực hiện manual test cases, log bugs và QA với khách hàng"
+      ],
+      "platform": [
+        "Git",
+        "Confluence"
+      ],
+      "teamSize": 5,
+      "backgroundColor": "bg-card-green"
+    },
+    {
+      "id": 3,
+      "title": "BSN - Next System",
+      "description": "BSN là một ứng dụng web cho phép đăng ký hóa đơn thanh toán doanh nghiệp cho nhân viên và quản lý ngân sách hàng tháng cho từng bộ phận.",
+      "technology": "C#, SQL Server",
+      "task": [
+        "Thực hiện manual tests",
+        "Viết QA, log bug sử dụng tiếng Anh",
+        "Tìm nguyên nhân của bug bằng cách đọc document, phân tích câu query SQL, đọc source code"
+      ],
+      "platform": [
+        "Google Sheet"
+      ],
+      "teamSize": 14,
+      "backgroundColor": "bg-card-blue"
+    },
+    {
+      "id": 4,
+      "title": "Nifehub",
+      "description": "Nifehub là dự án mạng xã hội chuyên về nightlife đa quốc gia, dự kiến được release vào năm 2023",
+      "technology": "VueJS, PHP, CodeIgniter 4 , PostgreSQL",
+      "task": [
+        "Xây dựng services và controller dựa trên thiết kế của document",
+        "Xây dựng UI responsive, pixel-perfect dựa trên thiết kế Figma, được tối ưu SEO",
+        "Nắm được cấu trúc thiết kế database, viết authenticate và các action CRUD của admin."
+      ],
+      "platform": [
+        "Git",
+        "Jira",
+        "Trello"
+      ],
+      "teamSize": 16,
+      "backgroundColor": "bg-card-pink"
+    },
+    {
+      "id": 5,
+      "title": "Netflix (clone)",
+      "description": "Mình clone lại UI và một số tính năng của Netflix để áp dụng những kĩ thuật mới đã được học",
+      "technology": "React, Typescript, NextJS, Firebase",
+      "task": [
+        "Xây dựng SSR website, tối ưu SEO sử dụng NextJS",
+        "Popup Modal linh hoạt, được tối ưu về hiệu suất",
+        "Quản lý global state sử dụng thư viện Recoil và Atoms",
+        "Sử dụng các external API để lấy thông tin các bộ phim và hiển thị đẹp mắt trên giao diện",
+        "Đăng ký / Đăng nhập, lưu thông tin đăng nhập của người dùng sử dụng Firebase"
+      ],
+      "platform": [
+        "Git"
+      ],
+      "teamSize": 1,
+      "backgroundColor": "bg-card-brown"
+    },
+    {
+      "id": 6,
+      "title": "Style Shop",
+      "description": "Template mẫu thiết kế cho các shop bán hàng online",
+      "technology": "React, Typescript, NodeJS, SCSS, Redux",
+      "task": [
+        "Giao diện đẹp mắt, responsive, tốc độ load nhanh",
+        "Animation sinh động, thu hút người sử dụng",
+        "Quản lý global state sử dụng Redux"
+      ],
+      "platform": [
+        "Git",
+        "Trello"
+      ],
+      "teamSize": 2,
+      "backgroundColor": "bg-card-yellow"
+    }
   ]
 }
