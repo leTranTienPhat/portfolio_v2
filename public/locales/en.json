@@ -33,10 +33,10 @@
       "description": "A custom form that collect user information about the next location where Rakuten should expand its Rpay services.",
       "technology": "NextJS, Java, MariaDB, AWS",
       "task": [
-        "Work with Google Map geolocation services (Search Autocomplete, Reverse Geolocation, etc)",
+        "Research and use Google Map geolocation services to coordinate user's location (Search Autocomplete, Reverse Geolocation, etc)",
         "Analyze and display heatmap for admin user based on the coordinates received from the form",
         "Create high-level design, provide feedbacks to client for better layout experience.",
-        "Communicate with client using English on weekly basis",
+        "Do most of the communication with client using English on daily basis (chat, video meeting)",
         "Daily maintainance, debugging issues",
         "Write manual test cases, perform test cases and log bugs"
       ],
@@ -72,7 +72,7 @@
       "task": [
         "Create services and controller based on existing codes",
         "Build pixel-perfect responsive HTML based on Figma designs, SEO Optimized",
-        "Daily maintainance, debugging issues"
+        "Understand the database design structure, write authentication and CRUD actions for the admin"
       ],
       "platform": [
         "Git",
@@ -85,9 +85,11 @@
     {
       "id": 5,
       "title": "Netflix (clone)",
-      "description": "I cloned Netflix, yay!",
+      "description": "A clone version of Netflix UI and some basic functionallity",
       "technology": "React, Typescript, NextJS, Firebase",
       "task": [
+        "The clone version is also SEO optimized with SSR using NextJS",
+        "Optimized dynamic popup Modal that can render any component",
         "Manage global states with Recoil and Atoms",
         "Turn JSON results from API calls into beautiful UI",
         "Login/register and store user info using Firebase"
@@ -104,7 +106,8 @@
       "description": "Demo template designed for e-commerce websites",
       "technology": "React, Typescript, NodeJS, SCSS, Redux",
       "task": [
-        "Responsive and fast-loading landing page with smooth animation transition",
+        "Responsive UI and fast-loading landing page",
+        "Smooth animation transition across all pages",
         "Handle global state management with Redux"
       ],
       "platform": [

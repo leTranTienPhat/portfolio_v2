@@ -11,14 +11,14 @@
   "projects": [
     {
       "id": 1,
-      "title": "[Kokusai Express] K-NACCS Admin Management - Webapp version",
-      "description": "K-NACCS là phần mềm thông quan xuất/nhập khẩu do Kokusai Express phát triển để sử dụng tại Nhật Bản",
+      "title": "[Kokusai Express] K-NACCS Admin Management",
+      "description": "K-NACCS là phần mềm thông quan xuất/nhập khẩu do Kokusai Express phát triển để sử dụng tại Nhật Bản.",
       "technology": "VueJS, Java, TailwindCSS, Vuestic UI, AG-Grid, MariaDB.",
       "task": [
-        "Build reusable utilities and components",
-        "Build complex admin dashboard with multiple conditional check",
-        "Implement global state management with Vuex",
-        "Daily maintainance, debugging issues"
+        "Xây dựng những tính năng và component phức tạp có thể tái sử dụng",
+        "Xây dựng admin dashboard tích hợp nhiều tính năng, dynamic modal, xử lý nhiều flag điều kiện",
+        "Sử dụng Vuex để quản lý global states",
+        "Maintainance hằng ngày, test và fix bug"
       ],
       "platform": [
         "Git",
@@ -30,15 +30,15 @@
     {
       "id": 2,
       "title": "[Rakuten] Merchant Request Form",
-      "description": "A custom form that collect user information about the next location where Rakuten should expand its Rpay services.",
+      "description": "Một form thu thập thông ý kiến người dùng của Rakuten về địa điểm tiếp theo họ nên mở rộng ví điện tử Rpay của mình.",
       "technology": "NextJS, Java, MariaDB, AWS",
       "task": [
-        "Work with Google Map geolocation services (Search Autocomplete, Reverse Geolocation, etc)",
-        "Analyze and display heatmap for admin user based on the coordinates received from the form",
-        "Create high-level design, provide feedbacks to client for better layout experience.",
-        "Communicate with client using English on weekly basis",
-        "Daily maintainance, debugging issues",
-        "Write manual test cases, perform test cases and log bugs"
+        "Tìm hiểu và áp dụng các API của Google Map để phân tích vị trí người dùng (Search Autocomplete, Reverse Geolocation, etc)",
+        "Phân tích, tổng hợp và sử dụng Heatmap để hiển thị bao quát mức độ quan tâm của người dùng ở từng khu vực",
+        "Thiết kế high-level design, đóng góp ý kiến cho khách hàng để cải thiện chất lượng dự án",
+        "Nắm vai trò chính trong việc thực hiện giao tiếp với khách hàng thường xuyên bằng tiếng Anh (chat, họp qua video)",
+        "Maintainance hằng ngày, test và fix bug",
+        "Thiết kế và thực hiện manual test cases, log bugs và QA với khách hàng"
       ],
       "platform": [
         "Git",
@@ -50,13 +50,12 @@
     {
       "id": 3,
       "title": "BSN - Next System",
-      "description": "BSN is a web application that allows registering the business payment slip for employees and management of monthly budgets for each department.",
+      "description": "BSN là một ứng dụng web cho phép đăng ký hóa đơn thanh toán doanh nghiệp cho nhân viên và quản lý ngân sách hàng tháng cho từng bộ phận.",
       "technology": "C#, SQL Server",
       "task": [
-        "Perform manual tests",
-        "Write QA, log bugs using English",
-        "Implement global state management with Vuex",
-        "Daily test, debugging issues"
+        "Thực hiện manual tests",
+        "Viết QA, log bug sử dụng tiếng Anh",
+        "Tìm nguyên nhân của bug bằng cách đọc document, phân tích câu query SQL, đọc source code"
       ],
       "platform": [
         "Google Sheet"
@@ -67,12 +66,12 @@
     {
       "id": 4,
       "title": "Nifehub",
-      "description": "Nifehub is a large scale global social platform planning to release in 2023.",
+      "description": "Nifehub là dự án mạng xã hội chuyên về nightlife đa quốc gia, dự kiến được release vào năm 2023",
       "technology": "VueJS, PHP, CodeIgniter 4 , PostgreSQL",
       "task": [
-        "Create services and controller based on existing codes",
-        "Build pixel-perfect responsive HTML based on Figma designs, SEO Optimized",
-        "Daily maintainance, debugging issues"
+        "Xây dựng services và controller dựa trên thiết kế của document",
+        "Xây dựng UI responsive, pixel-perfect dựa trên thiết kế Figma, được tối ưu SEO",
+        "Nắm được cấu trúc thiết kế database, viết authenticate và các action CRUD của admin."
       ],
       "platform": [
         "Git",
@@ -85,12 +84,14 @@
     {
       "id": 5,
       "title": "Netflix (clone)",
-      "description": "I cloned Netflix, yay!",
+      "description": "Mình clone lại UI và một số tính năng của Netflix để áp dụng những kĩ thuật mới đã được học",
       "technology": "React, Typescript, NextJS, Firebase",
       "task": [
-        "Manage global states with Recoil and Atoms",
-        "Turn JSON results from API calls into beautiful UI",
-        "Login/register and store user info using Firebase"
+        "Xây dựng SSR website, tối ưu SEO sử dụng NextJS",
+        "Popup Modal linh hoạt, được tối ưu về hiệu suất",
+        "Quản lý global state sử dụng thư viện Recoil và Atoms",
+        "Sử dụng các external API để lấy thông tin các bộ phim và hiển thị đẹp mắt trên giao diện",
+        "Đăng ký / Đăng nhập, lưu thông tin đăng nhập của người dùng sử dụng Firebase"
       ],
       "platform": [
         "Git"
@@ -101,11 +102,12 @@
     {
       "id": 6,
       "title": "Style Shop",
-      "description": "Demo template designed for e-commerce websites",
+      "description": "Template mẫu thiết kế cho các shop bán hàng online",
       "technology": "React, Typescript, NodeJS, SCSS, Redux",
       "task": [
-        "Responsive and fast-loading landing page with smooth animation transition",
-        "Handle global state management with Redux"
+        "Giao diện đẹp mắt, responsive, tốc độ load nhanh",
+        "Animation sinh động, thu hút người sử dụng",
+        "Quản lý global state sử dụng Redux"
       ],
       "platform": [
         "Git",

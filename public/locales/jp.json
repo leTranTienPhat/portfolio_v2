@@ -12,13 +12,13 @@
     {
       "id": 1,
       "title": "[Kokusai Express] K-NACCS Admin Management - Webapp version",
-      "description": "K-NACCS is a customs clearance software developed by Kokusai Express for use in Japan",
+      "description": "K-NACCSは、日本国内で利用するために国際エキスプレスが開発した通関ソフトウェアです。",
       "technology": "VueJS, Java, TailwindCSS, Vuestic UI, AG-Grid, MariaDB.",
       "task": [
-        "Build reusable utilities and components",
-        "Build complex admin dashboard with multiple conditional check",
-        "Implement global state management with Vuex",
-        "Daily maintainance, debugging issues"
+        "再利用可能なユーティリティやコンポーネントの構築",
+        "複数の条件チェックを持つ複雑な管理ダッシュボードの構築",
+        "Vuexを使用したGlobal-stateの実装",
+        "毎日のメンテナンスや問題のデバッグ"
       ],
       "platform": [
         "Git",
@@ -30,15 +30,15 @@
     {
       "id": 2,
       "title": "[Rakuten] Merchant Request Form",
-      "description": "A custom form that collect user information about the next location where Rakuten should expand its Rpay services.",
+      "description": "楽天が次にRpayサービスを展開する場所について、ユーザー情報を収集するカスタムフォームです",
       "technology": "NextJS, Java, MariaDB, AWS",
       "task": [
-        "Work with Google Map geolocation services (Search Autocomplete, Reverse Geolocation, etc)",
-        "Analyze and display heatmap for admin user based on the coordinates received from the form",
-        "Create high-level design, provide feedbacks to client for better layout experience.",
-        "Communicate with client using English on weekly basis",
-        "Daily maintainance, debugging issues",
-        "Write manual test cases, perform test cases and log bugs"
+        "Google Mapのジオロケーションサービスを調査し、ユーザーの位置情報を座標で収集 (Search Autocomplete, Reverse Geolocation, etc)",
+        "フォームから受け取った座標を基に、管理者ユーザー向けのヒートマップを分析・表示",
+        "レイアウトエクスペリエンスを向上するため、高レベルの設計を作成し、クライアントにフィードバックを提供",
+        "英語での日常的なコミュニケーション（チャット、ビデオ会議）を担当",
+        "毎日のメンテナンスや問題のデバッグ",
+        "マニュアルテストケースの作成、テストケースの実行、バグのログ記録"
       ],
       "platform": [
         "Git",
@@ -50,13 +50,13 @@
     {
       "id": 3,
       "title": "BSN - Next System",
-      "description": "BSN is a web application that allows registering the business payment slip for employees and management of monthly budgets for each department.",
+      "description": "BSNは、従業員のビジネス支払い伝票の登録と、各部署の月次予算の管理を可能にするWebアプリケーションです。",
       "technology": "C#, SQL Server",
       "task": [
-        "Perform manual tests",
-        "Write QA, log bugs using English",
-        "Implement global state management with Vuex",
-        "Daily test, debugging issues"
+        "マニュアルテストの実施",
+        "英語でQAを記述し、バグをログに記録",
+        "Vuexを使用したグローバル状態管理の実装",
+        "毎日のメンテナンスや問題のデバッグ"
       ],
       "platform": [
         "Google Sheet"
@@ -67,12 +67,12 @@
     {
       "id": 4,
       "title": "Nifehub",
-      "description": "Nifehub is a large scale global social platform planning to release in 2023.",
+      "description": "NNifehubは、2023年にリリース予定の大規模なグローバルソーシャルプラットフォームです。",
       "technology": "VueJS, PHP, CodeIgniter 4 , PostgreSQL",
       "task": [
-        "Create services and controller based on existing codes",
-        "Build pixel-perfect responsive HTML based on Figma designs, SEO Optimized",
-        "Daily maintainance, debugging issues"
+        "既存のコードに基づいて、サービスとコントローラを作成する",
+        "Figmaのデザインに基づいた、ピクセルパーフェクトでレスポンシブなHTMLを構築し、SEO最適化を実施する",
+        "データベースの設計構造を理解し、管理者用の認証およびCRUDアクションを記述する"
       ],
       "platform": [
         "Git",
@@ -85,12 +85,14 @@
     {
       "id": 5,
       "title": "Netflix (clone)",
-      "description": "I cloned Netflix, yay!",
+      "description": "Netflix UIのクローンバージョンと基本的な機能を備えたものです。",
       "technology": "React, Typescript, NextJS, Firebase",
       "task": [
-        "Manage global states with Recoil and Atoms",
-        "Turn JSON results from API calls into beautiful UI",
-        "Login/register and store user info using Firebase"
+        "NextJSを使用したSSRで、クローンバージョンもSEO最適化を実施する",
+        "任意のコンポーネントをレンダリングできる最適化された動的ポップアップモーダルを管理する",
+        "RecoilとAtomsを使用してグローバル状態を管理する",
+        "API呼び出しからJSON結果を美しいUIに変換する",
+        "Firebaseを使用してユーザーのログイン/登録およびユーザー情報の保存を行う"
       ],
       "platform": [
         "Git"
@@ -101,11 +103,12 @@
     {
       "id": 6,
       "title": "Style Shop",
-      "description": "Demo template designed for e-commerce websites",
+      "description": "eコマースウェブサイト向けに設計されたデモテンプレートです。",
       "technology": "React, Typescript, NodeJS, SCSS, Redux",
       "task": [
-        "Responsive and fast-loading landing page with smooth animation transition",
-        "Handle global state management with Redux"
+        "レスポンシブなUIと高速な読み込み速度のランディングページ",
+        "すべてのページでスムーズなアニメーションの遷移",
+        "Reduxを使用してグローバル状態を管理する"
       ],
       "platform": [
         "Git",
