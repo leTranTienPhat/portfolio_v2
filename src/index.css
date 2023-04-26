@@ -8,14 +8,14 @@ img {
   -moz-user-drag: none;
   -o-user-drag: none;
 }
-
+/* 
 html {
   scroll-snap-type: y proximity;
 }
 
 section {
   scroll-snap-align: start;
-}
+} */
 
 body {
   display: flex;
