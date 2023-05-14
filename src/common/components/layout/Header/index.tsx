@@ -36,7 +36,7 @@ export default function Header() {
   }
 
   return (
-    <div className={`fixed top-0 w-screen z-50 h-16 flex justify-center bg-transparent ${hideLogo ? 'bg-primary-dark dark:bg-bg-light ' : ''}`}>
+    <div className={`fixed top-0 w-screen z-50 h-16 flex justify-center ${hideLogo ? 'bg-primary-dark dark:bg-bg-light ' : 'bg-transparent'}`}>
       <div className="container flex justify-between h-full items-center">
         <div className="flex gap-4 dark:text-white items-center">
           {!hideLogo &&
