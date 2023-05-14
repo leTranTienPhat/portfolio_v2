@@ -9,13 +9,13 @@ img {
   -o-user-drag: none;
 }
 
-html {
+/* html {
   scroll-snap-type: y proximity;
 }
 
 section {
   scroll-snap-align: start;
-}
+} */
 
 body {
   display: flex;
