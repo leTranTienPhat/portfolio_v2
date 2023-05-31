@@ -8,7 +8,7 @@ export default function ThemeSwitcher() {
 
   return (
     <button className="h-full" onClick={handleThemeSwitch}>
-      {theme === 'light' ? <img src={LightIcon} className='w-8' /> : <img src={DarkIcon} className='w-8' />}
+      {theme === 'light' ? <img src={LightIcon} className='w-8' alt='light icon' /> : <img src={DarkIcon} className='w-8' alt='dark icon' />}
     </button>
   )
 }

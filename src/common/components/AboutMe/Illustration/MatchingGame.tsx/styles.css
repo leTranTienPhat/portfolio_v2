@@ -3,17 +3,17 @@
 }
 
 .game-box label:nth-child(1) i {
-  background-image: url(../../../../assets/Images/01.jpg);
+  background-image: url(../../../../assets/Images/01.webp);
   animation: matching-animate 0.5s steps(7) infinite;
 }
 
 .game-box label:nth-child(2) i {
-  background-image: url(../../../../assets/Images/02.jpg);
+  background-image: url(../../../../assets/Images/02.webp);
   animation: matching-animate 0.4s steps(7) infinite;
 }
 
 .game-box label:nth-child(3) i {
-  background-image: url(../../../../assets/Images/03.jpg);
+  background-image: url(../../../../assets/Images/03.webp);
   animation: matching-animate 0.7s steps(7) infinite;
 }
 

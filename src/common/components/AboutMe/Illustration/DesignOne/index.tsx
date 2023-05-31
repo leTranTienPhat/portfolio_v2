@@ -1,4 +1,4 @@
-import illustration from "../../../../assets/Images/design-01.png"
+import illustration from "../../../../assets/Images/design-01.webp"
 
 export default function DesignOne() {
   return (
