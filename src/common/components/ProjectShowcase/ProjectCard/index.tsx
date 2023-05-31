@@ -11,18 +11,17 @@ const inViewOptions = {
 }
 
 const ProjectCard = ({ item }: Props, ref: any) => {
-  const isInView = useInView(ref, inViewOptions)
+  // const isInView = useInView(ref, inViewOptions)
 
-  const appearAnimation = {
-    transform: isInView ? "none" : "translateX(-200px)",
-    opacity: isInView ? 1 : 0,
-    transition: "all 0.2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-  }
+  // const appearAnimation = {
+  //   transform: isInView ? "none" : "translateX(-200px)",
+  //   opacity: isInView ? 1 : 0,
+  //   transition: "all 0.2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+  // }
 
   return (
     <div ref={ref}
       className={`w-[95%] min-h-[500px] ${item.backgroundColor} dark:bg-transparent dark:border-2 dark:border-white dark:text-white mb-10 rounded-[40px] px-10 lg:px-20 py-10 shadow-xl`}
-      style={appearAnimation}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-full h-full">
         <div className=" w-full h-full">

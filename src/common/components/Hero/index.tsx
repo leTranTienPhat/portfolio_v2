@@ -1,5 +1,5 @@
 import Marquee from "./Marquee";
-import phat from "../../assets/Images/phat.png"
+import phat from "../../assets/Images/phat.webp"
 
 export default function Hero() {
   return (

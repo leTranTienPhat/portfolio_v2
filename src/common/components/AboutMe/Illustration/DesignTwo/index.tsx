@@ -1,5 +1,5 @@
-import landingPage01 from "../../../../assets/Images/landing-page-01.jpg"
-import landingPage02 from "../../../../assets/Images/landing-page-02.jpg"
+import landingPage01 from "../../../../assets/Images/landing-page-01.webp"
+import landingPage02 from "../../../../assets/Images/landing-page-02.webp"
 
 export default function DesignTwo() {
   return (
